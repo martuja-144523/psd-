@@ -1,0 +1,102 @@
+/* normal css starts here  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+/* normal css ends here  */
+/* nav style starts here  */
+nav{
+    background: #02918b;
+    width: 1280px;
+    
+}
+
+nav .holder{
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+}
+nav .logo{
+    width: 15%;
+    
+}
+.menue{
+    width:85%;
+}
+.menue ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+nav .menue ul li a{
+    padding: 26px 25px;
+    display: inline-block;
+    text-transform:uppercase ;
+    font-size: 12px;
+    font-weight: 800;
+    background: #02918b; 
+    transition: .7s; 
+    
+    color: #fff;
+} 
+nav .menue ul li {
+    position: relative;
+}
+
+nav .menue ul li:hover >a{
+    background: #cfc91d;
+    color: #0b1016;
+}
+/* nav .menue ul li a{
+    
+    display: inline-block;
+} */
+nav .menue ul li ul{
+    position: absolute;
+    /* display: block; */
+    display: none;
+}
+nav .menue ul li:hover ul{
+    display: block;
+}
+
+
+
+/* nav style ends here  */
+/* banner style starts here  */
+.pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-image: image(MYFOLIO.jpg) ; */
+    width: 1280px;
+    height: 728px;
+    
+}
+.line-1{
+    font-size: 30px;
+}
+.line-2{
+    font-size: 68px;
+    font-weight: 800;
+}
+.line-3{
+    font-size: 18px;
+}
+/* banner style ends here  */
